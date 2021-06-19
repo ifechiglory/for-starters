@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to the official website of theAWESOMElife. We are a brand focused on aiding the all-round personal development and growth of individuals, the development of the productivity and performance levels of corporate bodies. We achieve this by organizing monthly and annual conferences and seminars, writing and conducting peak performance sessions for corporate bodies and sharing daily inspirational messages. We also offer speaking services at conferences and other type of gatherings.">
+  <meta name="keywords" content="theawesomelife, awesome, life, public speaking, tribe, blog, articles, inspiration, purpose">
+  <meta name="author" content="theAWESOMElife">
+  <title>Home - theAWESOMElife</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/venom-button.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- [if lt IE 9]> -->
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]
+
+</head>
+
+<body data-spy="scroll" data-target="#nav">
+  <div class="svg-wrap">
+    <svg width="64" height="64" viewBox="0 0 64 64">
+      <path id="arrow-left"
+        d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z">
+      </path>
+    </svg>
+
+    <svg width="64" height="64" viewBox="0 0 64 64">
+      <path id="arrow-right"
+        d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z">
+      </path>
+    </svg>
+  </div>
+
+  <!-- MAIN CONTENT -->
+
+  <div class="container-fluid">
+
+    <!-- HEADER -->
+    <section id="header">
+
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-fixed-top navbar-default bottom" id="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" id="navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="logo" href="#header">
+              <img id="img-logo" src="images/tal2.png" alt="the awesome life">
+            </a>
+
+
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right" id="nav">
+                <li><a class="nav-list active" href="#header">Home</a></li>
+                <li><a class="nav-list" href="#about">About</a></li>
+                <li><a class="nav-list" href="#events">Events</a></li>
+                <li><a class="nav-list" href="#team">Team</a></li>
+                <li><a class="nav-list" href="#blog">Blog</a></li>
+                <li><a class="nav-list" href="#contact">Contact</a></li>
+              </ul>
+            </div> <!-- /.navbar-collapse -->
+          </div><!-- /.navbar-header -->
+        </div> <!-- /.container -->
+      </nav>
+
+      <!-- SLIDER -->
+      <div class="header-slide">
+        <section>
+          <ul class="slider" id="active">
+            <li class="slide show">
+              <span class="left"><i class="fa fa-angle-left"></i></span>
+              <div class="text">
+                <h1><img src="images/tal2.png" alt=""></h1>
+                <h3> <i>'AWESOME'</i> IS MORE THAN JUST A NAME</h3>	
+              </div>
+              <span class="right"><i class="fa fa-angle-right"></i></span>
+            </li>
+      
+            <li class="slide">
+              <span class="left"><i class="fa fa-angle-left"></i></span>
+              <div class="text">
+                <h1><img src="images/tal2.png" alt=""></h1>
+                <h3><i>'AWESOME'</i> IS MORE THAN JUST A WORD</h3>	
+              </div>
+              <span class="right"><i class="fa fa-angle-right"></i></span>
+            </li>
+      
+            <li class="slide">
+              <span class="left"><i class="fa fa-angle-left"></i></span>
+              <div class="text">
+                <h1><img src="images/tal2.png" alt=""></h1>
+                <h3><i>'AWESOME'</i> IS A LIFESTYLE</h3>	
+              </div>
+              <span class="right"><i class="fa fa-angle-right"></i></span>
+            </li>
+      
+            <li class="slide">
+              <span class="left"><i class="fa fa-angle-left"></i></span>
+              <div class="text">
+                <h1><img src="images/tal2.png" alt=""></h1>
+                <h3>REMEMBER TO LIVE the<i>AWESOME</i>life</h3>	
+              </div>
+              <span class="right"><i class="fa fa-angle-right"></i></span>
+            </li>
+          </ul>
+        </section>
+      </div><!-- /.header-slide -->
+    </section>
+
+    <!-- HEADER END -->
+
+    <!-- ABOUT -->
+
+    <section id="about" class="light">
+      <header class="title">
+        <h2>About <span>Us</span></h2>
+        <p>
+          We are a brand focused on aiding the all-round personal development and growth of individuals, the development of the productivity and performance levels of corporate bodies. We achieve this by organizing monthly and annual conferences and seminars, writing and conducting peak performance sessions for corporate bodies and sharing daily inspirational messages. We also offer speaking services at conferences and other type of gatherings.</p>
+      </header>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events" class="dark">
+      <header class="title">
+        <h2><span>UPCOMING</span> EVENTS</h2>
+      </header>
+      
+      <div class="container">
+        <div class="row table-row">
+          <div class="col-sm-6 hidden-xs">
+            <div class="section-content">
+              <div class="big-image" style="background-image:url(images/BOT.jpg)"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="section-content">
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-microphone"></i></div>
+                <div class="about-detail text-justify">
+                  <h4>BUSINESS OF TALK '21</h4>
+                  <p><i>#BOT'19</i> was a hit, <i>#BOT'20</i> had to be shifted. <i>#BOT'21</i> promises to be the biggest so far. This year's edition will be focused on startups and entrepreneurs. We will be having top speakers talk on core areas which every business, startup and entrepreneur should focus on in order to thrive in their field. And these core areas are <strong>Sales, Branding, Networking</strong> and <strong>Marketing</strong>. We are set to bring you the best of experiences!</p>
+                </div>
+              </div>
+            </div>
+            <button id="register" data-toggle="modal" data-target="#exampleModal">Register Now</button>
+          </div>
+        </div> <!-- /.row table-row -->
+      </div> <!-- /.container -->
+    </section>
+
+    <a href="https://wa.me/message/QDNQ65UMIFOMH1" target="blank"><div id="myButton"></div></a>
+    
+   <!-- iFRAME -->
+  <section id="iframe">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">BUSINESS OF TALK '21</h5> -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <img src="images/BOT 21 header.jpg" alt="headerimg" class="modalImg">
+          </div>
+          <div class="modal-body">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRCUy5O1SEzyI76ARNLxnPk-Pf50bcFbvZWa7DR0_yX8nkyA/viewform?embedded=true" width="550" height="520"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+    <!-- TEAM -->
+
+    <section id="team" class="light">
+      <header class="title">
+        <h2>Creative <span>Team</span></h2>
+        <p>Meet the Tribe!</p>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 text-center plaque" id="plaque">
+            <!-- <div class="plaque-text animated" data-animate="fadeInDown" id="plaque-text">
+              <p>Victor Edet, popularly known as 'Awesome', is the founder and Co-Headwriter of House of Awesome and theAWESOMElife respectively. He is a seasoned writer, public speaker, graphics designer and content creator. He believes that everyone has the inherent potential in them to be good and to live their best life.</p>
+            </div> -->
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/19.jpeg" alt="" class="img-circle">
+              </div>
+
+              <h3>Victor Edet</h3>
+              <h5>Founder/Co-Headwriter</h5>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/edefvictorofficial?r=nametag" class="fa fa-instagram"></a></li>
+                  <li><a href="https://www.linkedin.com/in/edet-victor-1456a4191" class="fa fa-linkedin"></a></li>
+                  <li><a href="https://www.facebook.com/edetvictorawesome" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/9.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>Ifechukwu</h3>
+              <h5>Co-Headwriter</h5>
+
+              <!-- <p>Ifechukwu Max-Oti is the Co-Headwriter, editor and coordinator for theAWESOMElife and the Tribe of Awesome respectively. She is a front-end web developer with FluentOps and a creative writer</p> -->
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/just_efay" class="fa fa-instagram"></a></li>
+                  <li><a href="https://www.linkedin.com/in/ifechukwu-m-860876196" class="fa fa-linkedin"></a></li>
+                  <li><a href="https://m.facebook.com/IfechiGlowree" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/dee.png" alt="" class="img-circle">
+              </div>
+
+              <h3>Delight Cletus</h3>
+              <h5>Creative Writer</h5>
+
+              <!-- <p>Delight Daniyato Cletus is a proud member of the Tribe of Awesome and a creative writer for theAWESOMElife. She is a studnet of Nursing, a lover of photography and a seasonal writer. </p> -->
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/delight_cletus" class="fa fa-instagram"></a></li>
+                  <li><a href="https://m.facebook.com/DelightCletus" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/ada.png" alt="" class="img-circle">
+              </div>
+
+              <h3>Ada Ekedozie</h3>
+              <h5>Creative Writer</h5>
+
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dicta mollitia libero cum. Lorem ipsum dolor sit amet consectetur adipisicing elire shweare sit amet consectetur adipisicing elit</p> -->
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/chimdi.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>Chimdi Max-Oti</h3>
+              <h5>Creative Writer</h5>
+
+              <!-- <p>Chimdi is, first, a proud member of the Tribe of Awesome and then, a creative writer for theAWESOMElife. She is a content creator, a music lover and a hairstylist</p> -->
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/goody.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>Goodness Idio</h3>
+              <h5>Creative Writer</h5>
+
+              <!-- <p>A proud member of the Tribe of Awesome and a creative writer for theAWESOMElife, Goodness is also a student, a seasoned writer and a hairstylist. </p> -->
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/faith.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>Faith Edet</h3>
+              <h5>Creative Writer</h5>
+
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dicta mollitia libero cum. Lorem ipsum dolor sit amet consectetur adipisicing elire shweare  </p> -->
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- /.container -->
+    </section>
+    
+
+    <!-- BLOG -->
+
+    <section id="blog" class="dark">
+      <header class="title">
+        <h2><span>OUR</span> BLOG</h2>
+      </header>
+      
+      <div class="container">
+        <div class="row table-row">
+          <div class="col-sm-6 hidden-xs">
+            <div class="section-content">
+              <div class="big-image" style="background-image:url(images/blogposts.jpg)"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="section-content">
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-paste"></i></div>
+                <div class="about-detail">
+                  <h4>CALL FOR BLOG POSTS</h4>
+                  <p>Are you an already established writer or still an aspiring writer? Are you looking for a meduim for the world to read something you might have written? Then this is for you! theAWESOMElife is calling for articles to be featured on our blog and website.</p>
+                  <p>Each article submitted needs to be provided as follows:
+                    <ul>
+                      <li>Electric form using Microsoft Word</li>
+                      <li>Not less than 500 words</li>
+                      <li>Topics and categories should be properly clarified</li>
+                      <ul class="mobile-list">
+                        <p>Categories for Articles include:</p>
+                        <li>Finance</li>
+                        <li>Tech</li>
+                        <li>Fashion</li>
+                        <li>Food and Health</li>
+                        <li>Relationship</li>
+                        <li>Lifestyle</li>
+                        <li>Religion</li>
+                        <li>Sports</li>
+                        <li>Politics</li>
+                      </ul>
+                      <li>Sources refrenced must be properly cited at the end of the work</li>
+                      <li>All articles should be forwarded to <a href="mailto:hello@theawesomelife.com.ng">hello@theawesomelife.com.ng</a></li>
+                      <li>ALL ARTICLES MUST BE FREE OF ANY FORM OF PLAGAIRISM</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.row table-row -->
+      </div> <!-- /.container -->
+
+
+      <section class="light" id="blog-articles">
+        <header class="title">
+          <h2>BLOG<span> ARTICLES</span></h2>
+        </header>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 text-center">
+              <div class="wrap animated" data-animate="fadeInDown">
+
+                <h3>Selective Hearing</h3>
+                <h5>Author: Ifechukwu Max-Oti</h5>
+      
+                <p>Most times, the Holy Spirit speaks to us about a situation we're facing but because we don't like what he's saying, we act like he didn't say anything. Hello Dears! Selective hearing is not a fruit of the Spirit...</p>
+      
+                <div class="team-social">
+                  <ul class="list-inline social-list">
+                    <li><a href="hearing.html" >Read More</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4 col-sm-6 text-center">
+              <div class="wrap animated" data-animate="fadeInDown">
+      
+                <h3>Personal Values</h3>
+                <h5>Author: Goodness Idio</h5>
+      
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse eveniet beatae incidunt quaerat ducimus aperiam, unde minus, hic debitis quas nemo. Expedita accusamus consequatur nihil perferendis tenetur veritatis laudantium fuga?</p>
+      
+                <div class="team-social">
+                  <ul class="list-inline social-list">
+                    <li><a href="">Read More</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4 col-sm-6 text-center">
+              <div class="wrap animated" data-animate="fadeInDown">
+      
+                <h3>What Relationship is all about</h3>
+                <h5>Author: Victor Edet</h5>
+      
+                <p>Relationships, for me, is not just an outburst of emotions, where you spend every 15 minutes thinking about your partner. It's not just a state where you are calling and chatting, smiling at your phone every time his/her call or message comes in...</p>
+      
+                <div class="team-social">
+                  <ul class="list-inline social-list">
+                    <li><a href="relationships.html#relationships">Read More</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="more">
+              <a href="blog.html"><button id="articles">Show More Articles</button></a>
+            </div>
+          </div>
+        </div> <!-- /.container -->
+      </section>
+    </section>
+
+    <!-- FOOTER CONTACT -->
+
+    <section id="contact" class="dark">
+      <header class="title">
+        <h2><span>Contact </span>Us</h2>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 animated" data-animate="fadeInLeft">
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" rows="3" placeholder="Tell Us Everything"></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-default submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 animated" data-animate="fadeInRight">
+            <address>
+              <span><i class="fa fa-map-marker fa-lg"></i>Uyo, AkwaIbom State</span>
+              <span><i class="fa fa-phone fa-lg"></i> (+234) 816-1648-838</span>
+              <span><i class="fa fa-envelope-o fa-lg"></i> <a
+                  href="mailto:hello@theawesomelife.com.ng">hello&#64;theawesomelife.com.ng</a></span>
+              <span><i class="fa fa-globe fa-lg"></i> <a
+                  href="http://theawesomelife.com.ng">theawesomelife.com.ng</a></span>
+            </address>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-right mt-10">
+            <p><small>ALL RIGHTS RESERVED &copy; theAWESOMElife</small></p>
+            <p>With <i class="fa fa-heart"></i> <a href="https://www.linkedin.com/in/ifechukwu-m-860876196s">efay</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  </div><!-- /.container-fluid -->
+
+  <!-- SCRIPT -->
+  <script type="text/javascript" src="js/main.js"></script>  
+  
+  <script type="text/javascript">
+
+    $('#myButton').venomButton({
+        position: "right",
+        linkButton: false,
+        buttonImage: '<img src="images/whatsapp.svg"/>'
+    });
+  
+  </script>
+</body>
+
+</html>
